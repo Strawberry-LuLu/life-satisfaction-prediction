@@ -11,34 +11,34 @@
 *Примечание: Исходные данные не предоставляются в этом репозитории из-за лицензионных ограничений. Для демонстрации работы кода приложен файл `data_sample.csv`.*
 
 ## Структура репозитория
-life-satisfaction-prediction/      # Название репозитория
-├── data/                          # Папка с данными
-│   ├── raw/                       # Исходные сырые данные
-│   │   └── life_satisfaction.csv
-│   └── processed/                 # Обработанные данные
-│       └── cleaned_data.xlsx
-├── src/                           # Исходный код
-│   ├── data_preprocessing.py      # Предобработка (удаление столбцов, заполнение пропусков)
-│   ├── eda.py                     # Визуализация распределения значений
-│   ├── data_validation.py         # Проверки обновленных данных (корреляции, баланс)
-│   └── train_model.py             # Обучение и оценка нейросетевой модели
-├── models/                        # Обученные модели и артефакты
-│   ├── life_satisfaction_regression_model.keras
-│   ├── geo_mapping.pkl
-│   └── standard_scaler.pkl
-├── results/                       # Результаты и визуализации
-│   ├── figures/                   # Все графики
-│   │   ├── Распределение всех переменных.png
-│   │   ├── Общее количество наблюдейний по переменным.png
-│   │   ├── Доля заполненных значений по переменным.png
-│   │   ├── Корреляционная матрица.png
-│   │   ├── regression_results.png
-│   │   └── country_comparison_2026.png
-│   └── predictions/               # Файлы с прогнозами
-│       ├── germany_scenarios.csv
-│       └── model_predictions.csv
-├── requirements.txt               # Файл зависимостей
-└── README.md                      # Описание проекта
+- **life-satisfaction-prediction/** - корневая папка проекта
+  - **src/** - исходный код
+    - data_preprocessing.py - предобработка данных (удаление столбцов, заполнение пропусков)
+    - eda.py - визуализация распределения значений
+    - data_validation.py - проверки обновленных данных (корреляции, баланс)
+    - train_model.py - обучение и оценка нейросетевой модели
+  - **data/** - папка с данными
+    - raw/ - исходные сырые данные
+      - life_satisfaction.csv
+    - processed/ - обработанные данные
+      - cleaned_data.xlsx
+  - **models/** - обученные модели и артефакты
+    - life_satisfaction_regression_model.keras
+    - geo_mapping.pkl
+    - standard_scaler.pkl
+  - **results/** - результаты и визуализации
+    - figures/ - все графики
+      - distribution_all_variables.png
+      - total_observations_by_variables.png
+      - filled_values_percentage.png
+      - correlation_matrix.png
+      - regression_results.png
+      - country_comparison_2026.png
+    - predictions/ - файлы с прогнозами
+      - germany_scenarios.csv
+      - model_predictions.csv
+  - **requirements.txt** - файл зависимостей
+  - **README.md** - описание проекта
 
 ## Установка и запуск
 1. Клонируйте репозиторий:
