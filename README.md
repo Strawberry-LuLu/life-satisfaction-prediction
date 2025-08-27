@@ -11,34 +11,34 @@
 *Примечание: Исходные данные не предоставляются в этом репозитории из-за лицензионных ограничений. Для демонстрации работы кода приложен файл `data_sample.csv`.*
 
 ## Структура репозитория
-life-satisfaction-prediction/      # Название репозитория
-├── data/                          # Папка с данными
-│   ├── raw/                       # Исходные сырые данные
+life-satisfaction-prediction/
+├── data/
+│   ├── raw/
 │   │   └── life_satisfaction.csv
-│   └── processed/                 # Обработанные данные
+│   └── processed/
 │       └── cleaned_data.xlsx
-├── src/                           # Исходный код
-│   ├── data_preprocessing.py      # Предобработка (удаление столбцов, заполнение пропусков)
-│   ├── eda.py                     # Визуализация распределения значений
-│   ├── data_validation.py         # Проверки обновленных данных (корреляции, баланс)
-│   └── train_model.py             # Обучение и оценка нейросетевой модели
-├── models/                        # Обученные модели и артефакты
+├── src/
+│   ├── data_preprocessing.py
+│   ├── eda.py
+│   ├── data_validation.py
+│   └── train_model.py
+├── models/
 │   ├── life_satisfaction_regression_model.keras
 │   ├── geo_mapping.pkl
 │   └── standard_scaler.pkl
-├── results/                       # Результаты и визуализации
-│   ├── figures/                   # Все графики
+├── results/
+│   ├── figures/
 │   │   ├── Распределение всех переменных.png
 │   │   ├── Общее количество наблюдейний по переменным.png
 │   │   ├── Доля заполненных значений по переменным.png
 │   │   ├── Корреляционная матрица.png
 │   │   ├── regression_results.png
 │   │   └── country_comparison_2026.png
-│   └── predictions/               # Файлы с прогнозами
+│   └── predictions/
 │       ├── germany_scenarios.csv
 │       └── model_predictions.csv
-├── requirements.txt               # Файл зависимостей
-└── README.md                      # Описание проекта
+├── requirements.txt
+└── README.md
 
 ## Установка и запуск
 1. Клонируйте репозиторий:
