@@ -14,29 +14,29 @@
 life-satisfaction-prediction/
 ├── data/
 │   ├── raw/
-│   │   └── life_satisfaction.csv
+│   │   └── life-satisfaction.csv
 │   └── processed/
-│       └── cleaned_data.xlsx
+│       └── cleaned-data.xlsx
 ├── src/
-│   ├── data_preprocessing.py
+│   ├── data-preprocessing.py
 │   ├── eda.py
-│   ├── data_validation.py
-│   └── train_model.py
+│   ├── data-validation.py
+│   └── train-model.py
 ├── models/
-│   ├── life_satisfaction_regression_model.keras
-│   ├── geo_mapping.pkl
-│   └── standard_scaler.pkl
+│   ├── life-satisfaction-regression-model.keras
+│   ├── geo-mapping.pkl
+│   └── standard-scaler.pkl
 ├── results/
 │   ├── figures/
-│   │   ├── Распределение всех переменных.png
-│   │   ├── Общее количество наблюдейний по переменным.png
-│   │   ├── Доля заполненных значений по переменным.png
-│   │   ├── Корреляционная матрица.png
-│   │   ├── regression_results.png
-│   │   └── country_comparison_2026.png
+│   │   ├── distribution-all-variables.png
+│   │   ├── total-observations-by-variables.png
+│   │   ├── filled-values-percentage.png
+│   │   ├── correlation-matrix.png
+│   │   ├── regression-results.png
+│   │   └── country-comparison-2026.png
 │   └── predictions/
-│       ├── germany_scenarios.csv
-│       └── model_predictions.csv
+│       ├── germany-scenarios.csv
+│       └── model-predictions.csv
 ├── requirements.txt
 └── README.md
 
