@@ -42,7 +42,7 @@
 
 ## Установка и запуск
 1. Клонируйте репозиторий:
-`git clone <url вашего репозитория>`
+`git clone <https://github.com/Strawberry-LuLu/life-satisfaction-prediction.git>`
 2. Перейдите в директорию проекта:
 `cd life-satisfaction-prediction`
 3. (Рекомендуется) Создайте виртуальное окружение и активируйте его:
